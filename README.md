@@ -3,6 +3,5 @@ This tool aims at assessing an comparing test suite reduction tools, which allow
 
 The tool and its empirical evaluation have been published in the following conference paper.
 
-TESRAC: A Framework for Test Suite Reduction Assessment at Scale
-J Becho, F Cerveira, J Leitão, RA Oliveira
-2022 IEEE 15th International Conference on Software Testing, Verification 
+J Becho, F Cerveira, J Leitão, RA Oliveira, "TESRAC: A Framework for Test Suite Reduction Assessment at Scale"
+2022 IEEE 15th International Conference on Software Testing, Verification (ICST), 2022 
