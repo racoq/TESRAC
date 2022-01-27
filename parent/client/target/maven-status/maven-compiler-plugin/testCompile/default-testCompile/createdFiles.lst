@@ -1,0 +1,5 @@
+org\kanonizo\test\MockitoTest.class
+org\kanonizo\test\SearchAlgorithmTest.class
+org\kanonizo\test\TestSuitePrioritisationTest.class
+org\kanonizo\test\TestCommandLine.class
+org\kanonizo\test\GreedyAlgorithmTest.class

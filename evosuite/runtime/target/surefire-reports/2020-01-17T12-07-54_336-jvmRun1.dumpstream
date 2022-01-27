@@ -1,0 +1,248 @@
+# Created on 2020-01-17T12:07:59.237
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime\005Ctarget\005Ctest-classes;C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime\005Ctarget\005Cclasses;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-junit\005C1.10.2\005Cant-junit-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant\005C1.10.2\005Cant-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-launcher\005C1.10.2\005Cant-launcher-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.8\005Ccommons-lang3-3.8.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.1.3\005Clogback-classic-1.1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.1.3\005Clogback-core-1.1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.16.0\005Cmockito-core-2.16.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.7.9\005Cbyte-buddy-1.7.9.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.7.9\005Cbyte-buddy-agent-1.7.9.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cspec\005Cjavax\005Cservlet\005Cjboss-servlet-api_3.1_spec\005C1.0.2.Final\005Cjboss-servlet-api_3.1_spec-1.0.2.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cinject\005Cjavax.inject\005C1\005Cjavax.inject-1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cejb\005Cjavax.ejb-api\005C3.2\005Cjavax.ejb-api-3.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.2\005Cjavax.transaction-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cfaces\005Cjavax.faces-api\005C2.2\005Cjavax.faces-api-2.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cws\005Crs\005Cjsr311-api\005C1.1.1\005Cjsr311-api-1.1.1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Centerprise\005Ccdi-api\005C1.2\005Ccdi-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cel\005Cjavax.el-api\005C3.0.0\005Cjavax.el-api-3.0.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cinterceptor\005Cjavax.interceptor-api\005C1.2\005Cjavax.interceptor-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.2.13.Final\005Chibernate-core-5.2.13.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.1.Final\005Cjboss-logging-3.3.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Cjavax\005Cpersistence\005Chibernate-jpa-2.1-api\005C1.0.0.Final\005Chibernate-jpa-2.1-api-1.0.0.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.22.0-GA\005Cjavassist-3.22.0-GA.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cspec\005Cjavax\005Ctransaction\005Cjboss-transaction-api_1.2_spec\005C1.0.1.Final\005Cjboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.3.Final\005Cjandex-2.0.3.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.3.0\005Cclassmate-1.3.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cdom4j\005Cdom4j\005C1.6.1\005Cdom4j-1.6.1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.1.Final\005Chibernate-commons-annotations-5.0.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chsqldb\005Chsqldb\005C2.4.0\005Chsqldb-2.4.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C4.3.14.RELEASE\005Cspring-orm-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C4.3.14.RELEASE\005Cspring-beans-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C4.3.14.RELEASE\005Cspring-core-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C4.3.14.RELEASE\005Cspring-jdbc-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C4.3.14.RELEASE\005Cspring-tx-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C4.3.14.RELEASE\005Cspring-context-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C4.3.14.RELEASE\005Cspring-aop-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C4.3.14.RELEASE\005Cspring-expression-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.22\005Cslf4j-api-1.7.22.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C6.0\005Casm-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-commons\005C6.0\005Casm-commons-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-tree\005C6.0\005Casm-tree-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-analysis\005C6.0\005Casm-analysis-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-util\005C6.0\005Casm-util-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccom\005Cgithub\005Cstefanbirkner\005Csystem-rules\005C1.17.1\005Csystem-rules-1.17.1.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005C..\005Clib\005Ctools.jar;
+
+
+# Created on 2020-01-17T12:07:59.252
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created on 2020-01-17T12:07:59.253
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created on 2020-01-17T12:07:59.253
+Unexpected IOException: I,1,user.variant,
+
+
+# Created on 2020-01-17T12:07:59.254
+Unexpected IOException: I,1,java.vendor.url,http://java.oracle.com/
+
+
+# Created on 2020-01-17T12:07:59.254
+Unexpected IOException: I,1,user.timezone,
+
+
+# Created on 2020-01-17T12:07:59.254
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created on 2020-01-17T12:07:59.255
+Unexpected IOException: I,1,java.vm.specification.version,1.8
+
+
+# Created on 2020-01-17T12:07:59.255
+Unexpected IOException: I,1,user.country,PT
+
+
+# Created on 2020-01-17T12:07:59.256
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created on 2020-01-17T12:07:59.256
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Cbin
+
+
+# Created on 2020-01-17T12:07:59.257
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CJoao\005CAppData\005CLocal\005CTemp\005Csurefire4979286384819113321\005Csurefirebooter530894426545693408.jar C:\005CUsers\005CJoao\005CAppData\005CLocal\005CTemp\005Csurefire4979286384819113321 2020-01-17T12-07-54_336-jvmRun1 surefire2769548443253864322tmp surefire_42267056138897982672tmp
+
+
+# Created on 2020-01-17T12:07:59.258
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime\005Ctarget\005Ctest-classes;C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime\005Ctarget\005Cclasses;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-junit\005C1.10.2\005Cant-junit-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant\005C1.10.2\005Cant-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-launcher\005C1.10.2\005Cant-launcher-1.10.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.8\005Ccommons-lang3-3.8.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-classic\005C1.1.3\005Clogback-classic-1.1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cch\005Cqos\005Clogback\005Clogback-core\005C1.1.3\005Clogback-core-1.1.3.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C2.16.0\005Cmockito-core-2.16.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.7.9\005Cbyte-buddy-1.7.9.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy-agent\005C1.7.9\005Cbyte-buddy-agent-1.7.9.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cspec\005Cjavax\005Cservlet\005Cjboss-servlet-api_3.1_spec\005C1.0.2.Final\005Cjboss-servlet-api_3.1_spec-1.0.2.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cinject\005Cjavax.inject\005C1\005Cjavax.inject-1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cejb\005Cjavax.ejb-api\005C3.2\005Cjavax.ejb-api-3.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Ctransaction\005Cjavax.transaction-api\005C1.2\005Cjavax.transaction-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cfaces\005Cjavax.faces-api\005C2.2\005Cjavax.faces-api-2.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cws\005Crs\005Cjsr311-api\005C1.1.1\005Cjsr311-api-1.1.1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Centerprise\005Ccdi-api\005C1.2\005Ccdi-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cel\005Cjavax.el-api\005C3.0.0\005Cjavax.el-api-3.0.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cjavax\005Cinterceptor\005Cjavax.interceptor-api\005C1.2\005Cjavax.interceptor-api-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-core\005C5.2.13.Final\005Chibernate-core-5.2.13.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.3.1.Final\005Cjboss-logging-3.3.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Cjavax\005Cpersistence\005Chibernate-jpa-2.1-api\005C1.0.0.Final\005Chibernate-jpa-2.1-api-1.0.0.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjavassist\005Cjavassist\005C3.22.0-GA\005Cjavassist-3.22.0-GA.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cantlr\005Cantlr\005C2.7.7\005Cantlr-2.7.7.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cspec\005Cjavax\005Ctransaction\005Cjboss-transaction-api_1.2_spec\005C1.0.1.Final\005Cjboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cjboss\005Cjandex\005C2.0.3.Final\005Cjandex-2.0.3.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.3.0\005Cclassmate-1.3.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Cdom4j\005Cdom4j\005C1.6.1\005Cdom4j-1.6.1.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chibernate\005Ccommon\005Chibernate-commons-annotations\005C5.0.1.Final\005Chibernate-commons-annotations-5.0.1.Final.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Chsqldb\005Chsqldb\005C2.4.0\005Chsqldb-2.4.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-orm\005C4.3.14.RELEASE\005Cspring-orm-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C4.3.14.RELEASE\005Cspring-beans-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C4.3.14.RELEASE\005Cspring-core-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jdbc\005C4.3.14.RELEASE\005Cspring-jdbc-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-tx\005C4.3.14.RELEASE\005Cspring-tx-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C4.3.14.RELEASE\005Cspring-context-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C4.3.14.RELEASE\005Cspring-aop-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C4.3.14.RELEASE\005Cspring-expression-4.3.14.RELEASE.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.22\005Cslf4j-api-1.7.22.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C6.0\005Casm-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-commons\005C6.0\005Casm-commons-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-tree\005C6.0\005Casm-tree-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-analysis\005C6.0\005Casm-analysis-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm-util\005C6.0\005Casm-util-6.0.jar;C:\005CUsers\005CJoao\005C.m2\005Crepository\005Ccom\005Cgithub\005Cstefanbirkner\005Csystem-rules\005C1.17.1\005Csystem-rules-1.17.1.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005C..\005Clib\005Ctools.jar;
+
+
+# Created on 2020-01-17T12:07:59.258
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created on 2020-01-17T12:07:59.259
+Unexpected IOException: I,1,user.home,C:\005CUsers\005CJoao
+
+
+# Created on 2020-01-17T12:07:59.259
+Unexpected IOException: I,1,user.language,pt
+
+
+# Created on 2020-01-17T12:07:59.260
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-01-17T12:07:59.260
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre
+
+
+# Created on 2020-01-17T12:07:59.260
+Unexpected IOException: I,1,basedir,C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime
+
+
+# Created on 2020-01-17T12:07:59.261
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created on 2020-01-17T12:07:59.261
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created on 2020-01-17T12:07:59.262
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created on 2020-01-17T12:07:59.262
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created on 2020-01-17T12:07:59.263
+Unexpected IOException: I,1,jdk.attach.allowAttachSelf,true
+
+
+# Created on 2020-01-17T12:07:59.263
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created on 2020-01-17T12:07:59.263
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CJoao\005CAppData\005CLocal\005CTemp\005Csurefire4979286384819113321\005Csurefirebooter530894426545693408.jar
+
+
+# Created on 2020-01-17T12:07:59.264
+Unexpected IOException: I,1,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Cclasses
+
+
+# Created on 2020-01-17T12:07:59.264
+Unexpected IOException: I,1,user.script,
+
+
+# Created on 2020-01-17T12:07:59.265
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created on 2020-01-17T12:07:59.265
+Unexpected IOException: I,1,java.runtime.version,1.8.0_231-b11
+
+
+# Created on 2020-01-17T12:07:59.266
+Unexpected IOException: I,1,user.name,Joao
+
+
+# Created on 2020-01-17T12:07:59.266
+Unexpected IOException: I,1,skip.tests,true
+
+
+# Created on 2020-01-17T12:07:59.266
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created on 2020-01-17T12:07:59.267
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created on 2020-01-17T12:07:59.267
+Unexpected IOException: I,1,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cendorsed
+
+
+# Created on 2020-01-17T12:07:59.268
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created on 2020-01-17T12:07:59.268
+Unexpected IOException: I,1,file.encoding,UTF8
+
+
+# Created on 2020-01-17T12:07:59.269
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created on 2020-01-17T12:07:59.269
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005CJoao\005C.m2\005Crepository
+
+
+# Created on 2020-01-17T12:07:59.270
+Unexpected IOException: I,1,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created on 2020-01-17T12:07:59.270
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CJoao\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created on 2020-01-17T12:07:59.271
+Unexpected IOException: I,1,java.version,1.8.0_231
+
+
+# Created on 2020-01-17T12:07:59.271
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005CJoao\005CDesktop\005Cevosuite\005Cruntime
+
+
+# Created on 2020-01-17T12:07:59.271
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created on 2020-01-17T12:07:59.272
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created on 2020-01-17T12:07:59.272
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created on 2020-01-17T12:07:59.273
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created on 2020-01-17T12:07:59.273
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CProgramData\005COracle\005CJava\005Cjavapath;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005Cnodejs\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CUsers\005CJoao\005CDesktop\005CTese\005CFerramentas\005CMINTS\005CMINTS\005Cexe;C:\005CProgram Files\005CAnt\005Capache-ant-1.10.5\005Cbin;C:\005CTDM-GCC-64\005Cbin;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CUsers\005CJoao\005CAppData\005CLocal\005CPrograms\005CPython\005CPython36-32\005CScripts\005C;C:\005CUsers\005CJoao\005CAppData\005CLocal\005CPrograms\005CPython\005CPython36-32\005C;C:\005CUsers\005CJoao\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005Capache-maven-3.5.2\005Cbin;C:\005CUsers\005CJoao\005CAppData\005CRoaming\005Cnpm;C:\005CSpin;C:\005CActiveTcl\005Cbin;C:\005Ccygwin\005Cbin;C:\005CProgram Files\005Capache-maven-3.5.3\005Cbin;C:\005CGradle\005Cgradle-5.2.1\005Cbin;D:\005CProgramas\005CMicrosoft VS Code\005Cbin;C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cbin;;.
+
+
+# Created on 2020-01-17T12:07:59.274
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created on 2020-01-17T12:07:59.274
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created on 2020-01-17T12:07:59.274
+Unexpected IOException: I,1,java.vm.version,25.231-b11
+
+
+# Created on 2020-01-17T12:07:59.275
+Unexpected IOException: I,1,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_231\005Cjre\005Clib\005Cext;C:\005CWINDOWS\005CSun\005CJava\005Clib\005Cext
+
+
+# Created on 2020-01-17T12:07:59.275
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created on 2020-01-17T12:07:59.275
+Unexpected IOException: I,1,java.class.version,52.0
+
+
+# Created on 2020-01-17T12:07:59.299
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,org.evosuite.runtime.MockitoExtensionTest,null,null,null
+
+
+# Created on 2020-01-17T12:07:59.344
+Unexpected IOException: 5,1,org.evosuite.runtime.MockitoExtensionTest,testDoReturnMultipleWithMockitoAPI(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.705
+Unexpected IOException: 6,1,org.evosuite.runtime.MockitoExtensionTest,testDoReturnMultipleWithMockitoAPI(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.706
+Unexpected IOException: 5,1,org.evosuite.runtime.MockitoExtensionTest,testConfirmDoReturnChain(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.707
+Unexpected IOException: 6,1,org.evosuite.runtime.MockitoExtensionTest,testConfirmDoReturnChain(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.712
+Unexpected IOException: 5,1,org.evosuite.runtime.MockitoExtensionTest,testDoReturnMultiple(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.715
+Unexpected IOException: 6,1,org.evosuite.runtime.MockitoExtensionTest,testDoReturnMultiple(org.evosuite.runtime.MockitoExtensionTest),null,null,null
+
+
+# Created on 2020-01-17T12:07:59.715
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,org.evosuite.runtime.MockitoExtensionTest,null,null,null
+
+

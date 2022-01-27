@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: org.kanonizo.test.TestCommandLine
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.347 sec <<< FAILURE! - in org.kanonizo.test.TestCommandLine
+testMissingSource(org.kanonizo.test.TestCommandLine)  Time elapsed: 0.345 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+ClassCastException occurred while creating the mockito mock :
+  class to mock : 'org.apache.commons.cli.CommandLine', loaded by classloader : 'sun.misc.Launcher$AppClassLoader@42a57993'
+  created class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  proxy instance class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  instance creation by : ObjenesisInstantiator
+
+You might experience classloading issues, please ask the mockito mailing-list.
+
+Caused by: java.lang.ClassCastException: org.apache.commons.cli.CommandLine$MockitoMock$166625685 cannot be cast to org.mockito.internal.creation.bytebuddy.MockAccess
+
+testHelpOption(org.kanonizo.test.TestCommandLine)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+ClassCastException occurred while creating the mockito mock :
+  class to mock : 'org.apache.commons.cli.CommandLine', loaded by classloader : 'sun.misc.Launcher$AppClassLoader@42a57993'
+  created class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  proxy instance class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  instance creation by : ObjenesisInstantiator
+
+You might experience classloading issues, please ask the mockito mailing-list.
+
+Caused by: java.lang.ClassCastException: org.apache.commons.cli.CommandLine$MockitoMock$166625685 cannot be cast to org.mockito.internal.creation.bytebuddy.MockAccess
+
+testMissingTest(org.kanonizo.test.TestCommandLine)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+ClassCastException occurred while creating the mockito mock :
+  class to mock : 'org.apache.commons.cli.CommandLine', loaded by classloader : 'sun.misc.Launcher$AppClassLoader@42a57993'
+  created class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  proxy instance class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  instance creation by : ObjenesisInstantiator
+
+You might experience classloading issues, please ask the mockito mailing-list.
+
+Caused by: java.lang.ClassCastException: org.apache.commons.cli.CommandLine$MockitoMock$166625685 cannot be cast to org.mockito.internal.creation.bytebuddy.MockAccess
+
+testSetupFramework(org.kanonizo.test.TestCommandLine)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+ClassCastException occurred while creating the mockito mock :
+  class to mock : 'org.apache.commons.cli.CommandLine', loaded by classloader : 'sun.misc.Launcher$AppClassLoader@42a57993'
+  created class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  proxy instance class : 'org.apache.commons.cli.CommandLine$MockitoMock$166625685', loaded by classloader : 'net.bytebuddy.dynamic.loading.MultipleParentClassLoader@512535ff'
+  instance creation by : ObjenesisInstantiator
+
+You might experience classloading issues, please ask the mockito mailing-list.
+
+Caused by: java.lang.ClassCastException: org.apache.commons.cli.CommandLine$MockitoMock$166625685 cannot be cast to org.mockito.internal.creation.bytebuddy.MockAccess
+

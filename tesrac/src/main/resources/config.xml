@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<!-- <mode>Analyze</mode> -->
+	<mode>Full</mode>
+
+	<reducedProjectsPath></reducedProjectsPath> <!-- The path where the reduced projects will be written -->
+	
+	<reportsPath></reportsPath> <!-- The path where the reports will be written -->
+
+	<outputPath></outputPath> <!-- The path where the file with the reduction scores will be written -->
+
+	<evosuite>true</evosuite> <!-- should use evosuite  true/false -->
+
+	<kanonizo> <!-- Kanonizo configuration -->
+		<use>true</use> <!-- should use kanonizo -->
+		<algorithms> <!-- algorithms to use -->
+			<algorithm use="true">random</algorithm>
+			<algorithm use="true">greedy</algorithm>
+			<algorithm use="true">randomsearch</algorithm>
+			<algorithm use="true">additionalgreedy</algorithm>
+		</algorithms>
+		<cutOffs> <!-- percentages to cut the test Suites -->
+			<cutOff>10</cutOff>
+			<cutOff>15</cutOff>
+			<cutOff>20</cutOff>
+			<cutOff>25</cutOff>
+			<cutOff>30</cutOff>
+		</cutOffs>
+	</kanonizo>
+
+	<!-- The values of 'importance' must be given as a comparison between 'sibling' 
+		criteria and according to these values: Giving X and Y, two 'sibling' criteria 
+		1 - Equal importance 3 - Moderate importance (X has slightly more importance 
+		than Y) 5 - Strong importance (X has more importance than Y) 7 - Very strong 
+		importance (X has much more importance than Y) 9 - Extreme importance (X 
+		has the most importance over Y) 2,4,6,8 values can be used for intermediate 
+		importance values if X has an importance z related to Y, then Y should have 
+		an importance 1/z related to X -->
+<mcdm>
+  <criteria>
+    <id>1</id>
+    <name>Dimension</name>
+    <importance cId="2">1</importance>
+    <importance cId="3">1/9</importance>
+    <subcriteria>
+      <criteria>
+        <id>1.1</id>
+        <name>File Size</name>
+        <importance cId="1.2">1</importance>
+      </criteria>
+      <criteria>
+        <id>1.2</id>
+        <name># of Test Cases</name>
+        <importance cId="1.1">1</importance>
+      </criteria>
+    </subcriteria>
+  </criteria>
+  <criteria>
+    <id>2</id>
+    <name>Coverage</name>
+    <importance cId="1">1</importance>
+    <importance cId="3">1/9</importance>
+    <subcriteria>
+      <criteria>
+        <id>2.1</id>
+        <name>% Branches Covered</name>
+        <importance cId="2.2">1</importance>
+        <importance cId="2.3">1</importance>
+      </criteria>
+      <criteria>
+        <id>2.2</id>
+        <name>% Total Coverage</name>
+        <importance cId="2.1">1</importance>
+        <importance cId="2.3">1</importance>
+      </criteria>
+      <criteria>
+        <id>2.3</id>
+        <name>% Mutation Score</name>
+        <importance cId="2.1">1</importance>
+        <importance cId="2.2">1</importance>
+      </criteria>
+    </subcriteria>
+  </criteria>
+  <criteria>
+    <name>Time</name>
+    <importance cId="1">9</importance>
+    <importance cId="2">9</importance>
+    <subcriteria>
+      <criteria>
+        <name>Tests Execution Time</name>
+      </criteria>
+    </subcriteria>
+  </criteria>
+</mcdm>
+
+
+	<projects> <!-- The subjects of the experiment -->
+		<!--<project> 
+				<name>ProjectName</name> 
+				<pathToPom>Path/to/pom.xml</pathToPom> 
+				<weight>weight on final score</weight> 
+			</project> -->
+	</projects>
+
+	<TSRtools> <!-- The TSR tools to run in the experiment -->
+		<tool>
+			<name>Testler</name>
+			<jar></jar>
+		</tool>
+		<tool>
+			<name>Randoop</name>
+			<jar></jar>
+		</tool>
+	</TSRtools>
+</config>

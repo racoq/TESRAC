@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: Joao
+Build-Jdk: 13.0.1
+Specification-Title: evosuite-standalone-runtime
+Specification-Version: 1.0
+Specification-Vendor: EvoSuite
+Implementation-Title: evosuite-standalone-runtime
+Implementation-Version: 1.0.7-SNAPSHOT
+Implementation-Vendor-Id: org.evosuite
+Implementation-Vendor: EvoSuite
+Implementation-URL: http://www.evosuite.org/evosuite-standalone-runtime/
+Agent-Class: org.evosuite.runtime.agent.InstrumentingAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Created-By: Maven Integration for Eclipse
+Premain-Class: org.evosuite.runtime.agent.InstrumentingAgent
+

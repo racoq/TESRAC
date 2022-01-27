@@ -1,0 +1,19 @@
+language: java
+jdk:
+  - oraclejdk8
+before_install:
+  - git clone --depth=1 https://github.com/thomasdeanwhite/scythe.git
+  - pushd scythe
+  - mvn clean install
+  - popd
+  - cd client
+script:
+  - mvn test package
+notifications:
+  slack: testprioritisation:b88gEuUpTCwV7zTZKYcdUMz8
+  email:
+    recipients:
+      - dpaterson1@sheffield.ac.uk
+    on_success: change
+    on_failure: change
+      

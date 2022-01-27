@@ -1,0 +1,7 @@
+com\examples\with\different\packagename\AbstractEnumInInnerClass$1.class
+com\examples\with\different\packagename\ClassWithPrivateInnerClass$1.class
+com\examples\with\different\packagename\generic\GuavaExample2$1.class
+com\examples\with\different\packagename\concolic\MyLinkedList$1.class
+com\examples\with\different\packagename\concolic\TestCase44$1.class
+com\examples\with\different\packagename\generic\AbstractGuavaExample$1.class
+com\examples\with\different\packagename\generic\GenericClassWithGenericMethodAndSubclass$1.class

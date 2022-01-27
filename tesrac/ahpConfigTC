@@ -1,0 +1,57 @@
+<!-- mcdm configuration for nr test cases scenario -->
+<mcdm>
+	<criteria>
+		<id>1</id>
+		<name>Dimension</name>
+		<importance cId="2">9</importance>
+		<importance cId="3">9</importance>
+		<subcriteria>
+			<criteria>
+				<id>1.1</id>
+				<name>File Size</name>
+				<importance cId="1.2">1</importance>
+			</criteria>
+			<criteria>
+				<id>1.2</id>
+				<name># of Test Cases</name>
+				<importance cId="1.1">9</importance>
+			</criteria>
+		</subcriteria>
+	</criteria>
+	<criteria>
+		<id>2</id>
+		<name>Coverage</name>
+		<importance cId="1">1/9</importance>
+		<importance cId="3">1</importance>
+		<subcriteria>
+			<criteria>
+				<id>2.1</id>
+				<name>% Branches Covered</name>
+				<importance cId="2.2">1</importance>
+				<importance cId="2.3">1</importance>
+			</criteria>
+			<criteria>
+				<id>2.2</id>
+				<name>% Total Coverage</name>
+				<importance cId="2.1">1</importance>
+				<importance cId="2.3">1</importance>
+			</criteria>
+			<criteria>
+				<id>2.3</id>
+				<name>% Mutation Score</name>
+				<importance cId="2.1">1</importance>
+				<importance cId="2.2">1</importance>
+			</criteria>
+		</subcriteria>
+	</criteria>
+	<criteria>
+		<name>Time</name>
+		<importance cId="1">1/9</importance>
+		<importance cId="2">1</importance>
+		<subcriteria>
+			<criteria>
+				<name>Tests Execution Time</name>
+			</criteria>
+		</subcriteria>
+	</criteria>
+</mcdm>

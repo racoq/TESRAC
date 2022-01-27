@@ -1,0 +1,48 @@
+<project name="Clover Report" default="current">
+
+    <clover-format id="clover.format" type="${type}" orderBy="${orderBy}" filter="${filter}"/>
+
+    <clover-setup initString="${cloverdb}"/>
+
+    <clover-columns id="clover.columns">
+        <!--<avgClassesPerFile format="raw" scope="project"/>
+        <avgMethodComplexity format="raw" scope="project"/>
+        <avgMethodsPerClass format="raw" scope="project"/>
+        <avgStatementsPerMethod format="raw" scope="project"/>-->
+        <complexity format="raw"/>
+        <complexityDensity format="raw"/>
+        <coveredBranches format="raw"/>
+        <coveredElements format="raw"/>
+        <coveredMethods format="raw"/>
+        <coveredStatements format="raw"/>
+        <expression title="Sum Global">Complexity^2 * ((1 - %CoveredElements/100)^3) + Complexity</expression>
+        <filteredElements format="raw"/>
+        <ncLineCount/>
+        <lineCount/>
+        <percentageCoveredContribution format="raw"/>
+        <percentageUncoveredContribution format="raw"/>
+        <totalBranches format="raw"/>
+        <totalChildren/>
+        <totalClasses/>
+        <totalElements/>
+        <totalFiles/>
+        <totalMethods/>
+        <totalPercentageCovered format="%"/>
+        <totalStatements/>
+        <uncoveredBranches format="raw"/>
+        <uncoveredElements format="raw"/>
+        <uncoveredMethods format="raw"/>
+        <uncoveredStatements format="raw"/>
+    </clover-columns>
+
+    <target name="current">
+        <clover-report>
+            <current outfile="${output}" title="${title}" summary="${summary}">
+                <format refid="clover.format"/>
+                <testsources dir="${tests}"/>
+                <columns refid="clover.columns"/>
+            </current>
+        </clover-report>
+    </target>
+
+</project>

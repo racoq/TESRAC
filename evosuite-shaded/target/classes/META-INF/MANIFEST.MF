@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Built-By: Joao
+Build-Jdk: 13.0.1
+Specification-Title: evosuite-shaded
+Specification-Version: 1.0
+Specification-Vendor: EvoSuite
+Implementation-Title: evosuite-shaded
+Implementation-Version: 1.0.7-SNAPSHOT
+Implementation-Vendor-Id: org.evosuite
+Implementation-Vendor: EvoSuite
+Implementation-URL: http://www.evosuite.org/evosuite-shaded/
+Agent-Class: shaded.org.evosuite.runtime.agent.InstrumentingAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Created-By: Maven Integration for Eclipse
+Main-Class: shaded.org.evosuite.EvoSuite
+Premain-Class: shaded.org.evosuite.runtime.agent.InstrumentingAgent
+
